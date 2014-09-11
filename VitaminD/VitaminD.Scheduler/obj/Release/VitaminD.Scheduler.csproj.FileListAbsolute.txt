@@ -1,0 +1,4 @@
+D:\PortF\WP\VitaminD\VitaminD.Scheduler\Bin\Release\VitaminD.Scheduler.dll
+D:\PortF\WP\VitaminD\VitaminD.Scheduler\Bin\Release\VitaminD.Scheduler.pdb
+D:\PortF\WP\VitaminD\VitaminD.Scheduler\obj\Release\VitaminD.Scheduler.dll
+D:\PortF\WP\VitaminD\VitaminD.Scheduler\obj\Release\VitaminD.Scheduler.pdb

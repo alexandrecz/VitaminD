@@ -1,0 +1,4 @@
+D:\PortF\WP\VitaminD\VitaminD.Core\Bin\Debug\VitaminD.Core.dll
+D:\PortF\WP\VitaminD\VitaminD.Core\Bin\Debug\VitaminD.Core.pdb
+D:\PortF\WP\VitaminD\VitaminD.Core\obj\Debug\VitaminD.Core.dll
+D:\PortF\WP\VitaminD\VitaminD.Core\obj\Debug\VitaminD.Core.pdb

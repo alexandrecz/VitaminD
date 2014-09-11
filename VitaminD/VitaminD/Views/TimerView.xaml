@@ -1,0 +1,97 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="VitaminD.Views.TimerView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+	<phone:PhoneApplicationPage.Resources>
+		<Storyboard x:Name="StHelp">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.GlobalOffsetY)" Storyboard.TargetName="gridHelp">
+				<EasingDoubleKeyFrame KeyTime="0" Value="490"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="StHelpClose">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.GlobalOffsetY)" Storyboard.TargetName="gridHelp">
+				<SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+				<SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="490"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+
+		<Storyboard x:Name="StAlarm">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.GlobalOffsetY)" Storyboard.TargetName="gridAlarm">
+				<EasingDoubleKeyFrame KeyTime="0" Value="490"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="StAlarmClose">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.GlobalOffsetY)" Storyboard.TargetName="gridAlarm">
+				<SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+				<SplineDoubleKeyFrame KeyTime="0:0:0.5" Value="490"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</phone:PhoneApplicationPage.Resources>
+    <Grid x:Name="LayoutRoot"  Background="#FFFD6B06">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="{Binding Path=LocalizedResources.ApplicationTitleUpper, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.SunlightTimer, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Name="Hour" HorizontalAlignment="Center" Margin="29,22,347,0" TextAlignment="Center" VerticalAlignment="Top" Width="80" Height="71" FontSize="62" FontFamily="Segoe WP Light" FontStretch="Expanded" TextOptions.TextHintingMode="Animated" />
+            <Ellipse HorizontalAlignment="Left" Height="110" Margin="14,13,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.46,0.47" StrokeThickness="4" Stroke="White"/>
+            <TextBlock Name="Min" HorizontalAlignment="Center" Margin="0,22,0,0" TextAlignment="Center" VerticalAlignment="Top" Width="80" Height="71" FontSize="62" FontFamily="Segoe WP Light" FontStretch="Expanded" TextOptions.TextHintingMode="Animated" />
+            <Ellipse HorizontalAlignment="Center" Height="110" Margin="0,13,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.46,0.47" StrokeThickness="4" Stroke="White"/>
+            <TextBlock Name="Sec" HorizontalAlignment="Right" Margin="0,22,29,0" TextAlignment="Center" VerticalAlignment="Top" Width="80" Height="71" FontSize="62" FontFamily="Segoe WP Light" FontStretch="Expanded" TextOptions.TextHintingMode="Animated" />
+            <Ellipse HorizontalAlignment="Right" Height="110" Margin="0,13,13,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.46,0.47" StrokeThickness="4" Stroke="White"/>
+            <Button Height="89" Name="ActionLabel" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="5,0,0,129" Click="Button_Click"  />
+        </Grid>
+        <Grid x:Name="gridHelp" Grid.Row="1" Height="490" HorizontalAlignment="Stretch" VerticalAlignment="Bottom">
+        	<Grid.Projection>
+                <PlaneProjection GlobalOffsetY="490"/>
+        	</Grid.Projection>
+			<Border x:Name="border" Background="White" Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Opacity="0.8">
+            	<Border.Projection>
+            		<PlaneProjection/>
+            	</Border.Projection>
+            </Border>
+			<TextBlock Text="{Binding Path=LocalizedResources.TimerAbout, Source={StaticResource LocalizedStrings}}" Margin="12,62,12,12" FontSize="30" TextWrapping="Wrap" >
+            	<TextBlock.Projection>
+            		<PlaneProjection/>
+            	</TextBlock.Projection>
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{StaticResource PhoneTextBoxReadOnlyColor}"/>
+                </TextBlock.Foreground></TextBlock>
+      </Grid>
+
+	   <Grid x:Name="gridAlarm" Background="#FFFD6B06" Grid.Row="1" Height="490" HorizontalAlignment="Stretch" VerticalAlignment="Bottom">
+        	<Grid.Projection>
+                <PlaneProjection GlobalOffsetY="490"/>
+        	</Grid.Projection>
+			
+			<TextBlock Text="{Binding Path=LocalizedResources.SunlightExposure, Source={StaticResource LocalizedStrings}}" Margin="18,62,18,12" FontSize="30" TextWrapping="Wrap" >
+            	<TextBlock.Projection>
+            		<PlaneProjection/>
+            	</TextBlock.Projection>
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{StaticResource PhoneTextBoxReadOnlyColor}"/>
+                </TextBlock.Foreground></TextBlock>
+            <MediaElement Name="media" Source="Assets/siren.mp3" AutoPlay="False" Visibility="Collapsed" />
+            <Button Height="89" Name="CloseAlarm" Content="{Binding Path=LocalizedResources.CloseAlarm, Source={StaticResource LocalizedStrings}}" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="5,0,0,90" Click="CloseAlarm_Click"   />
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

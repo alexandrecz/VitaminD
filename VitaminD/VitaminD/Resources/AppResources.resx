@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en-US</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>vitamin d</value>
+  </data>
+  <data name="SampleProperty" xml:space="preserve">
+    <value>Sample Runtime Property Value</value>
+  </data>
+  <data name="AboutHeader" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="SunlightReminder" xml:space="preserve">
+    <value>add reminder</value>
+  </data>
+  <data name="Disclaimer" xml:space="preserve">
+    <value>The body naturally synthesize vitamin D when exposed to sunlight. All you need for a week’s worth of vitamin D is for about 20 minutes in the sun. 
+VitaminD app will help you with a simple way to keep you posted about when you need to go to outside and get more sunlight.</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="MainHeader" xml:space="preserve">
+    <value>main</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate and Review </value>
+  </data>
+  <data name="Release" xml:space="preserve">
+    <value>Aplication version: 1.1</value>
+  </data>
+  <data name="SourcesHeader" xml:space="preserve">
+    <value>sources</value>
+  </data>
+  <data name="ApplicationTitleUpper" xml:space="preserve">
+    <value>VITAMIN D</value>
+  </data>
+  <data name="ReminderView" xml:space="preserve">
+    <value>reminder</value>
+  </data>
+  <data name="SourceView" xml:space="preserve">
+    <value>source</value>
+  </data>
+  <data name="CerTitle" xml:space="preserve">
+    <value>cereal</value>
+  </data>
+  <data name="EggTitle" xml:space="preserve">
+    <value>eggs</value>
+  </data>
+  <data name="MilkTitle" xml:space="preserve">
+    <value>milk</value>
+  </data>
+  <data name="MusTitle" xml:space="preserve">
+    <value>mushroom</value>
+  </data>
+  <data name="RicTitle" xml:space="preserve">
+    <value>ricotta</value>
+  </data>
+  <data name="SalTitle" xml:space="preserve">
+    <value>salmon</value>
+  </data>
+  <data name="SourceCer" xml:space="preserve">
+    <value>Like fortified milk, fortified cereal provides a more balanced meal than a Vitamin D supplement. The amount of Vitamin D in cereals varies widely by brand and type, though, so read the label carefully.</value>
+  </data>
+  <data name="SourceEgg" xml:space="preserve">
+    <value>Two large eggs have about one-tenth of a daily dose of Vitamin D. Eggs from truly free-range chickens, like those many are raising in backyards these days, are often more tasty and nutritious than the factory farmed kind; unfortunately, the free-range label on eggs is virtually meaningless.</value>
+  </data>
+  <data name="SourceMilk" xml:space="preserve">
+    <value>Fortified milk has about one-fifth a day's worth of Vitamin D (whole milk has more than skim).</value>
+  </data>
+  <data name="SourceMus" xml:space="preserve">
+    <value>Mushrooms can have a significant amount of Vitamin D, but the amount varies widely by type. Shiitake mushrooms (pictured) have 45 iu – about one-thirteenth of a daily serving of Vitamin D. White mushrooms, on the other hand, have just 5 iu</value>
+  </data>
+  <data name="SourceRic" xml:space="preserve">
+    <value>Ricotta cheese stands out among cheeses for its relatively high Vitamin D content. 
+With 25 iu of Vitamin D, it would still take about 24 servings to get your daily dose 
+solely from ricotta cheese (not recommended). That said, ricotta has about five times as much Vitamin D as most other cheeses.</value>
+  </data>
+  <data name="SourceSal" xml:space="preserve">
+    <value>Salmon has by far the most Vitamin D of any food (and wild salmon has much more than farmed salmon, which unfortunately is cheaper and easier to find). Half a fillet of sockeye salmon has more than 1,400 iu of Vitamin D – more than twice as much as most people need in a day.</value>
+  </data>
+  <data name="SourceSun" xml:space="preserve">
+    <value>Sunlight is the best and only natural source of vitamin D. The body naturally synthesize vitamin D when exposed to sunlight. All you need for a week’s worth of vitamin D is for about 20 minutes in the sun. It is a balancing exercise between not enough and too much sunshine. You do not want to burn or over-expose your skin.</value>
+  </data>
+  <data name="SourceTun" xml:space="preserve">
+    <value>A serving of tuna has a healthy dose of Vitamin D - more than one-third of a daily dose. Light tuna in oil has the most Vitamin D. (Light tuna in water has about one-fourth of a daily dose, while white tuna has about one-tenth. Light tuna also has less mercury than white tuna, making it a safer choice.)</value>
+  </data>
+  <data name="SunTitle" xml:space="preserve">
+    <value>sunlight</value>
+  </data>
+  <data name="TunTitle" xml:space="preserve">
+    <value>tuna</value>
+  </data>
+  <data name="ActiveReminderLabel" xml:space="preserve">
+    <value>turn it on</value>
+  </data>
+  <data name="StopReminderLabel" xml:space="preserve">
+    <value>turn it off</value>
+  </data>
+  <data name="ReminderList" xml:space="preserve">
+    <value>my reminders</value>
+  </data>
+  <data name="ButtonActionPauseText" xml:space="preserve">
+    <value>pause</value>
+  </data>
+  <data name="ButtonActionResumeText" xml:space="preserve">
+    <value>resume</value>
+  </data>
+  <data name="ButtonActionStartText" xml:space="preserve">
+    <value>start monitor</value>
+  </data>
+  <data name="SunlightExposure" xml:space="preserve">
+    <value>Congratulation!!! 
+You reached the minimum time of exposure to Sunlight recommended daily.</value>
+  </data>
+  <data name="SunlightTimer" xml:space="preserve">
+    <value>sunlight timer</value>
+  </data>
+  <data name="TimerView" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="TimerAbout" xml:space="preserve">
+    <value>Keep tracking your exposure to sunlight. After 20 minutes, VintaminD will alert you about your goal reached.</value>
+  </data>
+  <data name="CloseAlarm" xml:space="preserve">
+    <value>stop alarm</value>
+  </data>
+</root>

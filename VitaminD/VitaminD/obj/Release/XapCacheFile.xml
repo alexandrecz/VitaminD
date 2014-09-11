@@ -1,0 +1,37 @@
+﻿<xapCache source="D:\PortF\WP\VitaminD\VitaminD\Bin\Release\VitaminD_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-04-02 6:00:42 PM">
+  <file source="D:\PortF\WP\VitaminD\VitaminD\obj\Release\VitaminD.dll" archivePath="VitaminD.dll" lastWriteTime="2014-04-02 6:00:41 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\ApplicationBar.Select.png" archivePath="Assets\ApplicationBar.Select.png" lastWriteTime="2014-03-28 3:37:23 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\back.png" archivePath="Assets\back.png" lastWriteTime="2014-03-26 3:58:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\delete.png" archivePath="Assets\delete.png" lastWriteTime="2014-03-28 10:18:45 AM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\LockImage.png" archivePath="Assets\LockImage.png" lastWriteTime="2014-03-26 10:17:52 AM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\save.png" archivePath="Assets\save.png" lastWriteTime="2014-03-27 4:30:10 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\siren.mp3" archivePath="Assets\siren.mp3" lastWriteTime="2014-04-02 4:37:45 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\sunlight.jpg" archivePath="Assets\sunlight.jpg" lastWriteTime="2014-03-25 2:41:40 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\tuna.jpg" archivePath="Assets\tuna.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\help.png" archivePath="Assets\help.png" lastWriteTime="2014-04-01 1:13:37 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014-03-24 2:58:56 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\biffe.jpg" archivePath="Assets\biffe.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\cereal.jpg" archivePath="Assets\cereal.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\eggs.jpg" archivePath="Assets\eggs.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\milk.jpg" archivePath="Assets\milk.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\mush.jpg" archivePath="Assets\mush.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\pork.jpg" archivePath="Assets\pork.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\ricotta.jpg" archivePath="Assets\ricotta.jpg" lastWriteTime="2014-03-25 2:18:46 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\sal.jpg" archivePath="Assets\sal.jpg" lastWriteTime="2014-03-25 2:12:18 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014-03-25 1:56:28 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014-03-24 2:58:56 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014-03-24 2:58:56 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014-03-24 2:58:56 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014-03-25 1:59:48 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-04-02 6:00:42 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014-03-25 2:02:33 PM" />
+  <file source="D:\PortF\WP\VitaminD\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2014-03-27 2:24:30 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD.Scheduler\Bin\Release\VitaminD.Scheduler.dll" archivePath="VitaminD.Scheduler.dll" lastWriteTime="2014-04-02 6:00:41 PM" />
+  <file source="D:\PortF\WP\VitaminD\VitaminD\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014-04-02 6:00:42 PM" />
+</xapCache>
